@@ -1,0 +1,40 @@
+{
+  "name": "register",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "proxy": {
+    "/": {
+      "target": "http://192.168.47.211",
+      "secure": false
+    }
+  },
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "react": "^16.2.0",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-update": "^0.4.4",
+    "redux": "^4.0.0",
+    "redux-simple-router": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "antd-mobile": "^2.1.2",
+    "babel-plugin-import": "^1.6.3",
+    "rc-form": "^2.1.6",
+    "react-app-rewired": "^1.4.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}
